@@ -237,9 +237,9 @@ void Adafruit_BNO055::setAxisSign(adafruit_bno055_axis_remap_sign_t remapsign) {
 /*!
  *  @brief  Use the external 32.768KHz crystal
  *  @param  usextal
- *          use external crystal boolean
+ *          use external crystal bool
  */
-void Adafruit_BNO055::setExtCrystalUse(boolean usextal) {
+void Adafruit_BNO055::setExtCrystalUse(bool usextal) {
   adafruit_bno055_opmode_t modeback = _mode;
 
   /* Switch to config mode (just in case since this is the default) */
